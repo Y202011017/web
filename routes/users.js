@@ -1,8 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET users listing. */
-router.get('/login', function(req, res, next) {
+/* 로그인페이지 이동 */
+router.get('/login', function (req, res, next) {
     res.render('index', {title:'로그인', pageName:'login.ejs'});
 });
 
